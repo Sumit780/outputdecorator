@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'messageSystem';
+    myName:string="";
+
+  newChange(name:string){
+  this.myName=name;
+  }
 }
